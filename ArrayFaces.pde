@@ -1,9 +1,17 @@
+/* Rosa Martinez 
+01/29/25
+Learning Goal: Students will demonstrate their understanding of 
+Object-Oriented Programming and arrays by designing a Die class, 
+creating an array of Die objects to form a dynamic grid, 
+calculating and displaying the total value of the dice,
+and customizing the presentation of their program through HTML elements.*/
+
 int numRows = 8;  // Number of rows of faces
 int numCols = 8;  // Number of columns of faces
 int faceSize = 70; // Size of each face
 int total;        // Total value of all expressions
 PImage f1, f2, f3;
-String[] vibe = {"Excellent", "Good", "Bit rough"};
+String[] vibe = {"Super Rich", "Pretty Sweet", "Lost"};
 String vibeReport;
 
 void setup() {
@@ -84,9 +92,6 @@ class Face {
     }
 
     int getValue() {
-        return value;
-    }
-}
         return value;
     }
 }
