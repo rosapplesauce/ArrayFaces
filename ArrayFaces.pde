@@ -56,7 +56,7 @@ void draw() {
     } else if (total <= 192) {
         vibeReport = vibe[2]; // Fine
     }
-        System.out.println(total);
+       // System.out.println(total);
 
 fill(156, 20, 34);
     text("Frank Ocean is: " + vibeReport, 175, 35);
